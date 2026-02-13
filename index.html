@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Interactiva</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        #contador { font-size: 2em; margin: 20px; }
+        button { font-size: 1.2em; padding: 10px 20px; }
+    </style>
+</head>
+<body>
+
+    <h1>Mi Página con JavaScript</h1>
+    
+    <p>Esta página contiene elementos interactivos hechos con JavaScript.</p>
+
+    <h2>Contador Interactivo</h2>
+    <p id="contador">0</p>
+    <button onclick="incrementar()">Incrementar</button>
+    <button onclick="reiniciar()">Reiniciar</button>
+
+    <h2>Mensaje Personalizado</h2>
+    <input type="text" id="nombre" placeholder="Escribe tu nombre">
+    <button onclick="mostrarMensaje()">Mostrar Mensaje</button>
+    <p id="mensaje"></p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
