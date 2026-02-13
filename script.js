@@ -5,6 +5,12 @@ function incrementar() {
     document.getElementById("contador").innerText = contador;
 }
 
+//Decrementar
+function decremento() {
+    contador--;
+    document.getElementById("contador").innerText = contador;
+}
+
 // Función para reiniciar el contador
 function reiniciar() {
     contador = 0;
