@@ -6,7 +6,7 @@ function incrementar() {
 }
 
 //Decrementar
-function decremento() {
+function decrementar() {
     contador--;
     document.getElementById("contador").innerText = contador;
 }
